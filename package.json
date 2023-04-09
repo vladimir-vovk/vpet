@@ -1,0 +1,67 @@
+{
+  "name": "vpet",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start --clear",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "check-typescript": "tsc --noEmit",
+    "check-eslint": "eslint './src/**/*{js,ts,jsx,tsx}'",
+    "lint": "yarn check-typescript && yarn check-eslint",
+    "release": "standard-version",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint './src/**/*{js,ts,jsx,tsx}' --fix",
+      "prettier --write './src/**/*{js,ts,jsx,tsx}'"
+    ]
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "typescript",
+    "template"
+  ],
+  "author": "Vladimir Vovk",
+  "license": "MIT",
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/vladimir-vovk/expo-ts/issues"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^0.17.2",
+    "@types/react": "~18.0.24",
+    "@types/react-native": "~0.70.6",
+    "@vladimir-vovk/react-native-toast": "^1.0.3",
+    "expo": "~47.0.9",
+    "expo-screen-orientation": "~5.0.1",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-safe-area-context": "4.4.1",
+    "react-native-web": "~0.18.9",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^8.31.0",
+    "eslint-config-universe": "^11.1.1",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "standard-version": "^9.5.0"
+  },
+  "private": true
+}

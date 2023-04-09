@@ -1,0 +1,23 @@
+export const images = {
+  background: require('../../assets/game/canvas.png'),
+  frame: require('../../assets/game/frame.png'),
+  day: require('../../assets/game/day.png'),
+  night: require('../../assets/game/night.png'),
+  rain: require('../../assets/game/rain.png'),
+  dead: require('../../assets/game/dead.png'),
+  rainDrops: require('../../assets/game/rain-drops.png'),
+  petRest: require('../../assets/game/pet/rest.png'),
+  petEgg: require('../../assets/game/pet/egg.png'),
+  petHungry: require('../../assets/game/pet/hungry.png'),
+  petRain: require('../../assets/game/pet/rain.png'),
+  petEating: require('../../assets/game/pet/eating.png'),
+  petPooping: require('../../assets/game/pet/pooping.png'),
+  petHappy: require('../../assets/game/pet/happy.png'),
+  petWalking: require('../../assets/game/pet/walking.png'),
+  petSleeping: require('../../assets/game/pet/sleeping.png'),
+  poopBag: require('../../assets/game/pet/poop-bag.png'),
+  petDead: require('../../assets/game/pet/dead.png'),
+  buttonFish: require('../../assets/buttons/fish.png'),
+  buttonPoop: require('../../assets/buttons/poop.png'),
+  buttonSleep: require('../../assets/buttons/sleep.png')
+}

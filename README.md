@@ -9,6 +9,8 @@ A small game where you need to take care of your virtual fox-pet 🦊
 
 Inspired by the excellent [Complete Front-End Project: Build a Game](https://frontendmasters.com/courses/front-end-game/) course thought by Brian Holt from FrontendMasters.
 
+[Play it online](https://vpet.netlify.app) 🕹️
+
 ## Quick start
 
 1. Clone the repo.
